@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawx_Z</title>
+    <link rel="shortcut icon" href="assets/src/image/favicon-corrente-32x32.ico" type="image/x-icon">
+
+    <!-- Bootstrap CSS; -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- Bootstrap JS; -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap bootstrap-touch-slider Slider Main Style Sheet -->
+    <link href="bootstrap-touch-slider.css" rel="stylesheet" media="all">
+
+    <!-- Ref. CSS; -->
+    <link rel="stylesheet" href="assets/src/css/home.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-sm navbar-light bg-white fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-3 fw-semibold pb-4" href="#">
+                    <img class="w-100 ms-5" src="assets/src/image/favicon-corrente-32x32.ico" alt="..."> Kawx_Z
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+                    aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-items">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li><a class="nav-link black-color active" aria-current="page" href="#">Home</a></li>
+                        <li><a class="nav-link black-color" href="#produtos">Correntes</a></li>
+                        <li><a class="nav-link black-color" href="#produtos">Pulseiras</a></li>
+                        <li><a class="nav-link black-color" href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main id="home">
+
+        <div class="container" id="slider-container">
+
+            <div id="carouselIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/src/image/banners/banner-11.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h5>Correntes de Qualidade</h5>
+                            <a href="#produtos" class="btn btn-dark">Ver Produtos</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/src/image/banners/banner-22.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h5>Estilos Modernistas</h5>
+                            <a href="#produtos" class="btn btn-dark">Ver Produtos</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/src/image/banners/banner-33.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h5>Pulseiras e Acessórios</h5>
+                            <a href="#produtos" class="btn btn-dark">Ver Produtos</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators"
+                    data-bs-slide="prev">
+                    <i class="bi bi-chevron-compact-left"></i>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators"
+                    data-bs-slide="next">
+                    <i class="bi bi-chevron-compact-right"></i>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <!-- MINI BANNERS -->
+            <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+                <div class="row p-2">
+                    <div class="col-12 col-md-4">
+                        <div class="card text-center">
+                            <i class="bi bi-layers color-white icone"></i>
+                            <div class="card-body">
+                                <h5 class="card-title color-white">Você faz seu style.</h5>
+                                <p class="card-text grey-color">Tentamos sempre diversificar nossos produtos para
+                                    atender a maioria dos estilos mais atuais, esperamos atender suas necessidades.</p>
+                                <a href="#" class="btn btn-dark">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card text-center">
+                            <i class="bi bi-lightning-charge color-white icone"></i>
+                            <div class="card-body">
+                                <h5 class="card-title color-white">Atendimento Rápido.</h5>
+                                <p class="card-text grey-color">Sempre bem atententos e abertos para quaisquer tipos de
+                                    dúvidas, não se acanhe em perguntar: <a href="#contato">Contato</a>.</p>
+                                <a href="#" class="btn btn-dark">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card text-center">
+                            <i class="bi bi-box color-white icone"></i>
+                            <div class="card-body">
+                                <h5 class="card-title color-white">Produtos
+                                    Completos</h5>
+                                <p class="card-text grey-color">Prezando por qualidade e variedade sempre, produtos
+                                    atualizados constatantemente e cada dia que passa uma novidade diferente, fiquem
+                                    atentos!!</p>
+                                <a href="#" class="btn btn-dark">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- DESTAQUES -->
+        <div id="produtos" class="container" id="featured-container">
+            <div class="col-12">
+                <h2 class="title color-white">Correntes e Pulseiras</h2>
+                <p class="subtitle color-grey">Produtos feitos de aço inoxidável;</p>
+            </div>
+            <div class="col-12" id="featured-images">
+                <div class="row g-4">
+                    <div class="col-12 col-md-4">
+                        <img src="assets/src/image/produto-n1.webp" alt="Projeto 1" class="img-fluid">
+                        <div class="banner-content">
+                            <p class="white-color">Acessórios</p>
+                            <h3>Corrente Aço Inox</h3>
+                            <a href="https://contate.me/produto1-kawxz" target="_blank"
+                                class="rounded-5 btn btn-outline-dark">Estou interessado!</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="assets/src/image/produto-n2.jpg" alt="Projeto 2" class="img-fluid">
+                        <div class="banner-content">
+                            <p class="white-color">Acessórios</p>
+                            <h3>Corrente Aço Inox</h3>
+                            <a href="https://contate.me/produto2-kawxz" target="_blank"
+                                class="rounded-5 btn btn-outline-dark">Estou interessado!</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="assets/src/image/produto-n3.webp" alt="Projeto 3" class="img-fluid">
+                        <div class="banner-content">
+                            <p class="white-color">Acessórios</p>
+                            <h3>Corrente Aço Inox</h3>
+                            <a href="https://contate.me/produto3-kawxz" target="_blank"
+                                class="rounded-5 btn btn-outline-dark">Estou interessado!</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="assets/src/image/produto-n4.webp" alt="Projeto 4" class="img-fluid">
+                        <div class="banner-content">
+                            <p class="white-color">Acessórios</p>
+                            <h3>Corrente Aço Inox</h3>
+                            <a href="https://contate.me/produto4-kawxz" target="_blank"
+                                class="rounded-5 btn btn-outline-dark">Estou interessado!</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="assets/src/image/produto-n5.webp" alt="Projeto 5" class="img-fluid">
+                        <div class="banner-content">
+                            <p class="white-color">Acessórios</p>
+                            <h3>Corrente Aço Inox</h3>
+                            <a href="https://contate.me/produto5-kawxz" target="_blank"
+                                class="rounded-5 btn btn-outline-dark">Estou interessado!</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="assets/src/image/produto-n6.jpg" alt="Projeto 6" class="img-fluid">
+                        <div class="banner-content">
+                            <p class="white-color">Acessórios</p>
+                            <h3>Corrente Aço Inox</h3>
+                            <a href="https://contate.me/produto6-kawxz" target="_blank"
+                                class="rounded-5 btn btn-outline-dark">Estou interessado!</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="assets/src/image/produto-n7.webp" alt="Projeto 6" class="img-fluid">
+                        <div class="banner-content">
+                            <p class="white-color">Acessórios</p>
+                            <h3>Corrente Aço Inox</h3>
+                            <a href="https://contate.me/produto7-kawxz" target="_blank"
+                                class="rounded-5 btn btn-outline-dark">Estou interessado!</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 pb-5">
+                        <img src="assets/src/image/produto-n8.webp" alt="Projeto 6" class="img-fluid">
+                        <div class="banner-content">
+                            <p class="white-color">Acessórios</p>
+                            <h3>Corrente Aço Inox</h3>
+                            <a href="https://contate.me/produto8-kawxz" target="_blank"
+                                class="rounded-5 btn btn-outline-dark">Estou interessado!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- INFO -->
+        <div class="container" id="info-container">
+            <div class="col-12">
+                <h2 class="title color-white">Detalhes importantes</h2>
+                <p class="subtitle color-grey fs-6"><strong>Em breve também trabalharemos com roupas, então fique ligado
+                        nas novidades!!</strong></p>
+            </div>
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 col-md-5" id="info-banner">
+                        <img src="assets/src/image/banners/drip-star.jpeg" alt="Informações da Empresa"
+                            class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-7 bg-sub-white" id="info-content">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="title color-white">Esses dados fazem a diferença</h2>
+                                <p class="subtitle color-grey"><strong>Com apenas 3 meses de história a Kawx_Z ainda vai
+                                        ter grande impacto no mercado brasileiro, não somente isso como também
+                                        pretendemos criar mais oportunidades para pequenos empreendedores disciplinados
+                                        e que almejam o sucesso a todo o custo!.</strong></p>
+                            </div>
+                            <div class="col-12" id="info-numbers">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h3 class="color-white">3</h3>
+                                        <p class="color-grey">Meses de história e experiências absorvidas;</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <h3 class="color-white">65</h3>
+                                        <p class="color-grey">Metas Cumpridas e objetivos alcançados!</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <h3 class="color-white">30</h3>
+                                        <p class="color-grey">Clientes ativos e investidores!</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="btn btn-dark">Saber Mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="container-fluid bg-black" id="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- FOOTER TOP -->
+                    <div class="col-12" id="footer-top">
+                        <div class="row justify-content-between">
+                            <div class="col-4">
+                                <h2>
+                                    Kawx_Z
+                                </h2>
+                            </div>
+                            <div class="col-4" id="social-icons">
+                                <a href="https://kawanwagnner.github.io/Portfolio/" target="_blank" rel="noopener noreferrer"><i class="bi bi-postage"></i></a>
+                                <a target="_blank" href="mailto:kawanwagnner.gs@gmail.com"><i class="bi bi-book"></i></a>
+                                <a href="https://contate.me/kawanwagnner7" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                                <a href="http://linkedin.com/in/kawan-wagnner-296594236/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FOOTER DETAILS -->
+                    <div class="col-12" id="footer-details">
+                        <div class="row">
+                            <div class="col-12 col-md-4" id="news-container">
+                                <h4>Fique por dentro das novidades</h4>
+                                <p class="color-grey">
+                                    Inscreva-se para saber tudo em primeira mão:
+                                </p>
+                                <form>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" placeholder="Digite o seu e-mail" />
+                                    </div>
+                                    <button class="btn btn-dark">Inscrever-me</button>
+                                </form>
+                            </div>
+                            <div class="col-12 col-md-4" id="contact-container">
+                                <h4>Formas de contato</h4>
+                                <p class="color-grey">(11) 93906-0203</p>
+                                <p class="color-grey">kawanwagnner.gs@gmail.com</p>
+                            </div>
+                            <div class="col-12 col-md-4" id="links-container">
+                                <div class="row">
+                                    <h4>Você pode estar buscando por:</h4>
+                                    <div class="col-6">
+                                        <ul class="list-unstyled">
+                                            <li><a href="#home" class="color-grey">Início</a></li>
+                                            <li><a href="#" class="color-grey">Correntes</a></li>
+                                            <li><a href="#" class="color-grey">Pulseiras</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul class="list-unstyled">
+                                            <li><a href="#" class="color-grey">Doe para a causa</a></li>
+                                            <li>
+                                                <a href="#" class="color-grey">Instagram</a>
+                                            </li>
+                                            <li><a href="#contato" class="color-grey">Contato</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FOOTER BOTTOM -->
+                    <div id="contato" class="col-12" id="footer-bottom">
+                        <div class="row justify-content-between">
+                            <div class="col-12 col-md-3">
+                                <p class="color-grey">Kawx_Z &copy; 2023</p>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <p class="color-grey">
+                                    Prezando semprepor confiança.
+                                    <i style="color: #e61e10;" class="bi bi-heart"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>
