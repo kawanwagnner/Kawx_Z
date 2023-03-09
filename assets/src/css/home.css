@@ -197,6 +197,24 @@ html {
     flex-direction: column;
     opacity: 0;
     transition: .5s;
+
+}
+
+.container-esgotado {
+    background-color: #7a7a7a;
+    position: relative;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.text-esgotado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
 }
 
 @media(min-width: 768px) {
@@ -234,6 +252,7 @@ html {
 #info-banner:hover {
     opacity: 0.6;
     cursor: pointer;
+    transition: all .5s ease;
 }
 
 #info-banner:hover .info-banner-shirt {
